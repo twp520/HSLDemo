@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gradient_seek_height">2dp</dimen>
+    <dimen name="hsl_item_height">16dp</dimen>
+    <dimen name="hsl_item_width">28dp</dimen>
+    <dimen name="hsl_mid_margin">2dp</dimen>
+</resources>

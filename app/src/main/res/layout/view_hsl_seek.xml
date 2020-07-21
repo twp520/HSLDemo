@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="22dp"
+    android:paddingEnd="0dp"
+    tools:background="#323232">
+
+
+    <TextView
+        android:id="@+id/view_hsl_tv_hue"
+        style="@style/HSLTextStyle"
+        tools:text="色相 10" />
+
+    <com.colin.hsldemo.GradientSeekBar
+        android:id="@+id/view_hsl_seek_hue"
+        style="@style/FotorHSLGradientSeek" />
+
+
+    <TextView
+        android:id="@+id/view_hsl_tv_sat"
+        style="@style/HSLTextStyle"
+        tools:text="饱和度 20" />
+
+    <com.colin.hsldemo.GradientSeekBar
+        android:id="@+id/view_hsl_seek_sat"
+        style="@style/FotorHSLGradientSeek" />
+
+
+    <TextView
+        android:id="@+id/view_hsl_tv_lig"
+        style="@style/HSLTextStyle"
+        tools:text="明度 30" />
+
+    <com.colin.hsldemo.GradientSeekBar
+        android:id="@+id/view_hsl_seek_lig"
+        style="@style/FotorHSLGradientSeek" />
+
+</LinearLayout>

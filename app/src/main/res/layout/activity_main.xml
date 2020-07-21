@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC141414"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <com.colin.hsldemo.HSLView
+        android:id="@+id/test_hsl"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_gravity="center" />
+</FrameLayout>

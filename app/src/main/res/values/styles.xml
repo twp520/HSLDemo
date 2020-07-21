@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HSLTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#F5F5F5</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="FotorHSLGradientSeek" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:process">100</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:thumb">@drawable/thumb_rect</item>
+        <item name="android:minHeight">12dp</item>
+        <item name="android:maxHeight">12dp</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:max">200</item>
+        <item name="android:progressDrawable">@drawable/editor_seekbar</item>
+        <item name="android:background">@null</item>
+    </style>
+</resources>
